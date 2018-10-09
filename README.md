@@ -1,12 +1,12 @@
-Training a neural network on MNIST Dataset.
+# Training a neural network on MNIST Dataset.
 
 There are three python files in this MP:
 
-# training.py:
+## training.py:
 Trains a neural network model on MNIST dataset and saves the model to disk.
 Simply execute the python file to train the network - `python training.py`
 
-#inference_server.py:
+## inference_server.py:
 Implements a REST API which accepts a raw image as input and returns the predicted number along with its probability as output. 
 
 Using Flask, a python web framework and other popular python libraries like requests for building the APIs. For installing all the APIs using pip use:
@@ -29,6 +29,6 @@ Output:
 
 Two example image files - img_1.jpg and img_0.jpg are added in the repo to experiment with.
 
-# utils.py:
+## utils.py:
 Contains util functions useful in building training and inference pipelines like preprocessing image data.
 
