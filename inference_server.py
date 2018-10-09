@@ -3,9 +3,9 @@ Using Flask, a Python web framework for building the API.
 
 USAGE
 Start the server:
-    python run_keras_server.py
+    python inference_server.py
 Submit a request via CURL: 
-    curl -X POST -F image=@dog.jpg 'http://localhost:5000/predict'
+    curl -X POST -F image=@img_0.jpg 'http://localhost:5000/predict'
 '''
 
 from keras.preprocessing.image import img_to_array
