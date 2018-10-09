@@ -37,7 +37,7 @@ def predict():
             # preprocess the image and prepare it for classification
             image = img_to_array(image)
             image = np.expand_dims(image, axis=0)
-            image, input_shape = prepare_images(image)
+            image, _ = prepare_images(image)
 
             # classify the input image and return the predicted number along with its probability.
             preds = model.predict(image)
